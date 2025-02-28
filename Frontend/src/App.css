@@ -1,0 +1,178 @@
+/* Styles for AuthPage */
+.auth-container {
+  width: 350px;
+  margin: 250px ;
+  padding: 20px;
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: rgba(230, 235, 240, 0.8);
+  animation: mymov 5s infinite;
+  opacity: 0.8;
+}
+@keyframes mymov {
+  50% {box-shadow: 10px 20px 30px rgb(94, 94, 91) ;}
+}
+
+.auth-container h2 {
+  font-size: 24px;
+}
+
+.input-group {
+  margin-bottom: 15px;
+  text-align: left;
+  
+}
+
+.input-group label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+  color: black;
+}
+
+.input-group input {
+  width: 170%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+button {
+  width: 100%;
+  padding: 10px;
+  background-color: rgb(17, 17, 17);
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+button:hover {
+  background-color: #555;
+}
+
+
+.pricing-container {
+  background-color: white;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  background: rgba(245, 255, 255, 0.8);
+  width: 400px;
+  text-align: center;
+  line-height: 3;
+  margin-top: 25%;
+}
+
+label{
+  font-weight: bold;
+}
+.product-name{
+  margin-right: 5px;
+  font-size: large;
+
+}
+#product-name{
+  height: 20px;
+  padding: 3px;
+  border-radius: 3px;
+}
+.form-item1{
+  font-size: large;
+}
+
+/* src/components/HomePage.css */
+.homepage-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+ 
+ width: 1000px;
+ margin-top: 15%;
+ position: relative;
+}
+
+.image-container1 {
+  display: flex;
+  justify-content: center;
+ 
+}
+.image-container2 {
+  display: flex;
+  justify-content: center;
+ 
+
+}
+
+.polaroid1 {
+  position: relative;
+  width: 400px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+ background-color: white;
+ animation: mymov 5s infinite;
+}
+.polaroid2 {
+  position: relative;
+  width: 400px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  text-align: center;
+ background-color:white;
+ animation: mymov 5s infinite;
+}
+
+.polaroid-image1 {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+.polaroid-image2 {
+  width: 100%;
+  height: 80%;
+  object-fit: cover;
+}
+
+.image-name1 {
+  
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+.image-name2 {
+  
+  font-size: 1rem;
+  font-weight: bold;
+  color: #333;
+}
+body{
+  background-color: rgb(255, 255, 255);
+  
+  
+
+}
+.top{
+  margin-top: 5px;
+  color: gray;
+  text-shadow: 2px 2px 5px rgb(245, 131, 131);
+  text-align: center;
+  font-size: xx-large;
+}
+
+body {
+  
+  display: flex;
+  place-items: center;
+  justify-content: center;
+  
+}
+

@@ -1,0 +1,331 @@
+
+
+/* parts page css */
+.parts {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    width: 1000px;
+    height: 100vh; /* Make sure the content takes up the full height */
+    
+  }
+  
+  .content-container {
+    display: flex;
+    width: 1000px;
+    height: 90%;
+  }
+  
+  .image-container {
+    flex: 1; /* Take up 50% of the width */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Make the image container take full height */
+    width: 100%;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+   }
+   
+  
+  .form-container {
+    flex: 1; /* Take up 50% of the width */
+    padding: 20px;
+    
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    box-shadow: 2px 4px 5px 10px rgba(0, 0, 0, 0.1);
+    height: 100%; /* Ensure the form container takes full height */
+    overflow-y: auto; /* In case content overflows vertically */
+    align-items: center;
+    opacity: 0.7;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+  margin-top: 0px;
+    
+  }
+  
+  .form-group {
+    margin-top: 10px;
+    
+  }
+  .form-group3 {
+    margin-top: 10px;
+    color: rebeccapurple;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 1em;
+  }
+  
+  input[type="file"],
+  select,
+  input[type="number"] {
+    padding: 10px;
+    font-size: 1em;
+    
+    margin-top: 5px;
+    border-radius: 5px;
+  }
+  
+  .print {
+    padding: 10px 20px;
+    background-color: #343634;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    width: 25%;
+  }
+  .pay {
+    padding: 13px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 50%;
+    
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  .dimension-inputs {
+    margin-top: 10px;
+    display: grid;
+  }
+  
+  .dimension-inputs label,
+  .form-group label {
+    font-size: 1em;
+    margin-top: 10px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+   
+    
+  }
+  .payment-page {
+    
+    
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: 125%;
+    margin-top: 25%;
+    opacity: 0.8;
+  }
+  
+  .payment-form {
+    margin-bottom: 30px;
+  }
+  
+  .payment-form h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  
+  .print-button{
+    background-color: #e5a55d;
+    margin-top: -15px;
+  }
+  
+  .payment-form .form-1 {
+    margin-bottom: 20px;
+  }
+  .form-1{
+    margin-top: 20px;
+  }
+  
+  input[type='text']{
+    width: 132%;
+    border-radius: 4px;
+    font-size: 1em;
+    padding: 8px;
+  }
+  button.pay-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+  }
+  
+  button.pay-button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Print Page styling */
+  .print-page {
+    font-family: Arial, sans-serif;
+    margin-top: 30%;
+    color: #333;
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    margin-left: 0%;
+    line-height: 2em;
+    opacity: 0.8;
+    border-width: 10px;
+    
+  }
+  
+  .print-page h1 {
+    font-size: 24px;
+    text-align: center;
+    color: #0e0f0f;
+    margin-bottom: 20px;
+  }
+  
+  #payment-details {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 10px 15px 35px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+  }
+  
+  #payment-details p {
+    font-size: 16px;
+    line-height: 1.6;
+    margin: 10px 0;
+  }
+  
+  #payment-details p strong {
+    color: #000;
+  }
+  
+  button {
+    display: block;
+    width: 200px;
+    margin: 0 auto;
+    padding: 10px;
+    background-color: #e5a55d;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Assemble page*/
+  .parts {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .content-container {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+  }
+  
+  .image-container {
+    flex: 1; /* Make the image container take up 50% of the space */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    overflow-y: auto;
+    padding: 10px;
+  }
+  
+  .image-gallery img {
+    max-width: 100%;
+    height: auto;
+    margin: 5px;
+    object-fit: cover; /* Ensures images cover the space without distortion */
+  }
+  
+  .form-container {
+    flex: 2; /* Form takes up 2x more space than the image container */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 15px;
+    padding: 10px;
+    opacity: 0.8;
+  }
+  
+  h1 {
+    font-size: 24px;
+    text-align: center;
+  }
+  
+  .form-group label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  input[type="file"] {
+    margin-top: 5px;
+  }
+  
+  button.pay {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button.pay:hover {
+    background-color: #45a049;
+  }
+  .back-btn{
+    width: 27%;
+    margin-top: 3px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    border:none
+    
+  }
+  .back-pay{
+    width: 100%;
+    margin-top: 3px;
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    margin-top: 15px;
+    border:none
+    
+  }
+  button.back-btn:hover{
+    background-color: rgb(56, 40, 43);
+  }
+ body{
+  background-image: url('/back1.jpg');
+ }

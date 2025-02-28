@@ -1,0 +1,57 @@
+/* Style the form and its items*/ 
+form {
+    display: flex;
+    flex-direction: column; /* Arrange items in a column */
+    gap: 10px; /* Add space between items */
+  }
+  
+  .form-item {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+  .form-item input[type="checkbox"] {
+    margin-right: 8px; /* Add space between checkbox and text */
+  }
+  
+  .form-item input[type="text"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 100%; /* Full width of the container */
+  }
+/* Styles for PricingComponent */
+
+  
+  h3 {
+    color: green;
+    margin-top: 20px;
+  }
+  
+  button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+  }
+  
+  button {
+    margin-top: 10px;
+  }
+  
+  input[type="number"] {
+    width: 50px;
+  }
+  h2{
+    color: black;
+  }
+  
+  
+ .head{ margin-left:135% ;
+  height: 500px;
+  line-height: 3;
+  animation: mymove 5s infinite;
+  border: 15px solid;
+}  
+
+@keyframes mymove {
+  50% {border-color: lightblue;}
+}
